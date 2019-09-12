@@ -20,7 +20,6 @@ public class CosmeticController {
 	
 	@Autowired CosmeticService cosmeticService;
 	
-	
 	@GetMapping("/cosmetics")
 	public List <Cosmetics> selectAllCosmetics() {
 		return cosmeticService.getAllCosmetics();
