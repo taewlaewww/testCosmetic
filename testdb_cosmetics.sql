@@ -27,7 +27,7 @@ CREATE TABLE `cosmetics` (
   `name` varchar(45) NOT NULL,
   `amount` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -36,7 +36,7 @@ CREATE TABLE `cosmetics` (
 
 LOCK TABLES `cosmetics` WRITE;
 /*!40000 ALTER TABLE `cosmetics` DISABLE KEYS */;
-INSERT INTO `cosmetics` VALUES (1,'LipTint',199),(2,'LipStick XOXO',239),(4,'Perfume',2495);
+INSERT INTO `cosmetics` VALUES (1,'LipTint',199),(2,'LipStick XOXO',239),(4,'Perfume',2495),(5,'BLUSH ON',399),(7,'BODY LOTION',329);
 /*!40000 ALTER TABLE `cosmetics` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-09-11 21:33:07
+-- Dump completed on 2019-09-12 21:16:45
