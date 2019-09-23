@@ -31,5 +31,6 @@ public class CosmeticService {
 		cs.setAmount(cosmetics.getAmount());
 		cosmeticRepo.save(cs);
 	}
+	
 
 }
